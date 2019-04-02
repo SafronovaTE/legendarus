@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Легендарус - бои гладиаторов</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+<h1>Бои гладиаторов</h1>
+<p>Легендарус выходит на бой по очереди с 10-ю гладиаторами, которые обладают параметрами "сила" и "оружие".<br>
+  Бой - сравнение силы Легендаруса и силы гладиатора. Побеждает сильнейший. Победивший Легендарус приплюсовывает к своей силе оружие гладиатора и с новой силой идет сражаться со следующим гладиатором.<br>
+  Задача: определить конечного победителя.
+</p>
+<div class="wrapper">
+  <label for="legendarus-power">Легендарус, начальная сила:</label>
+  <input type="text" id="legendarus-power" value="0">
+</div>
+<div class="wrapper">
+  <button id="start">В бой!</button>
+  <button id="begin">Начать заново</button>
+</div>
+<div class="wrapper">
+  <h2>Гладиаторы:</h2>
+  <p>1)
+    <label>Сила: <input class="glad-power" type="text"></label>
+    <label>Оружие: <input class="glad-weapon" type="text"></label>
+  </p>
+  <p>2)
+    <label>Сила: <input class="glad-power" type="text"></label>
+    <label>Оружие: <input class="glad-weapon" type="text"></label>
+  </p>
+  <p>3)
+    <label>Сила: <input class="glad-power" type="text"></label>
+    <label>Оружие: <input class="glad-weapon" type="text"></label>
+  </p>
+  <p>4)
+    <label>Сила: <input class="glad-power" type="text"></label>
+    <label>Оружие: <input class="glad-weapon" type="text"></label>
+  </p>
+  <p>5)
+    <label>Сила: <input class="glad-power" type="text"></label>
+    <label>Оружие: <input class="glad-weapon" type="text"></label>
+  </p>
+  <p>6)
+    <label>Сила: <input class="glad-power" type="text"></label>
+    <label>Оружие: <input class="glad-weapon" type="text"></label>
+  </p>
+  <p>7)
+    <label>Сила: <input class="glad-power" type="text"></label>
+    <label>Оружие: <input class="glad-weapon" type="text"></label>
+  </p>
+  <p>8)
+    <label>Сила: <input class="glad-power" type="text"></label>
+    <label>Оружие: <input class="glad-weapon" type="text"></label>
+  </p>
+  <p>9)
+    <label>Сила: <input class="glad-power" type="text"></label>
+    <label>Оружие: <input class="glad-weapon" type="text"></label>
+  </p>
+  <p>10)
+    <label>Сила: <input class="glad-power" type="text"></label>
+    <label>Оружие: <input class="glad-weapon" type="text"></label>
+  </p>
+</div>
+<div class="wrapper">
+  <h2>Ход игры:</h2>
+  <p id="log" class="log"></p>
+</div>
+
+</body>
+</html>
